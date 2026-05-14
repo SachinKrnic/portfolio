@@ -30,8 +30,8 @@ const Skills = ()=>{
              </div>
 
                         <div className="button-group">
-                           <a href="" target="_blank" rel="noreferrer" className="btn-dark">GitHub</a>
-                           <a href="" target="_blank" rel="noreferrer" className="btn-blue"> Demo</a>
+                           <a href="https://github.com/SachinKrnic/portfolio" target="_blank" rel="noreferrer" className="btn-dark">GitHub</a>
+                           <a href="https://portfolio-one-jet-66.vercel.app/" target="_blank" rel="noreferrer" className="btn-blue"> Demo</a>
                         </div>
    </div>
 
