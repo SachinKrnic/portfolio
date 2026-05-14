@@ -14,7 +14,7 @@ const Connect = () => {
             <a href="https://www.linkedin.com/in/sachinkrnic/" aria-label="LinkedIn">
                 <img src={linkedin} alt="LinkedIn" className="link" />
             </a>
-            <a href="https://leetcode.com/sachinkrnic/" aria-label="LeetCode" target="_blank" rel="noopener noreferrer">
+            <a href="https://leetcode.com" aria-label="LeetCode" target="_blank" rel="noopener noreferrer">
                 <img src={leetcode} alt="LeetCode" className="link" />
             </a>
             <a href="https://www.instagram.com/sachinkrnic__01" aria-label="Instagram">
