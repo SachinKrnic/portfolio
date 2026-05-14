@@ -16,7 +16,7 @@ const Intro = () => {
                 </p>
                 
               <div className="cv">
-                  <a href="https://drive.google.com/file/d/1M_mJoJlOjB0UrxXnRgCPLiW_rbA8fTAc/view?usp=sharing" id="cdtext">Download CV</a>
+                  <a href="https://drive.google.com/file/d/1MIBn6gdA98d2Iw9C-JjBn53X9wpR738N/view?usp=sharing" id="cdtext">Download CV</a>
                
               </div>
                 
