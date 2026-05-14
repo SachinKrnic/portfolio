@@ -1,0 +1,190 @@
+#skills{
+    overflow: hidden;
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.project{
+    margin: 1rem auto;
+    font-size: 4rem;
+    font-weight: 500;
+    color: rgb(77, 77, 77);
+}
+
+.projectsbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.projectDetails{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    max-width: 100%;
+    height: 420px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.projectDetails:hover{
+     transform: translateY(-6px);
+   box-shadow: 0 16px 35px #00abf0;
+   border: 1px solid rgba(0, 171, 240, 0.6);
+}
+
+.projectImg{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.ProjectText{
+    padding: 12px 15px;
+}
+
+.projectHead{
+    color: rgb(77, 77, 77);
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.projectDesc{
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.tag-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 0 15px;
+    margin-top: 8px;
+    justify-content: center;
+}
+
+.tag{
+    background: #e6f7ff;
+    color: #0077b6;
+    padding: 4px 10px;
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+.button-group{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-top: auto;
+}
+
+.btn-dark,
+.btn-blue{
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-dark{
+    background: #111;
+}
+
+.btn-blue{
+    background: #00abf0;
+}
+
+/*  TABLET  */
+
+@media screen and (max-width: 810px){
+
+    .project{
+        font-size: 2.5rem;
+    }
+
+    .projectDetails{
+        width: 330px;
+        max-width: 100%;
+        height: auto;
+        min-height: 340px;
+    }
+
+    .projectImg{
+        height: 140px;
+    }
+
+    .projectHead{
+        font-size: 1.1rem;
+    }
+
+    .projectDesc{
+        font-size: 0.76rem;
+        text-align: justify;
+    }
+
+    .tag{
+        font-size: 0.6rem;
+    }
+    .button-group{
+        margin-top: 0.2rem;
+        font-size: 0.7rem;
+    }
+}
+
+/*  MOBILE  */
+
+@media screen and (max-width: 480px){
+
+    #skills{
+        max-width: 95%;
+    }
+
+    .project{
+        font-size: 2.2rem;
+    }
+
+    .projectsbox{
+        gap: 1.5rem;
+    }
+
+    .projectDetails{
+        width: 100%;
+        min-height: auto;
+    }
+
+    .projectImg{
+        height: 170px;
+    }
+
+    .projectHead{
+        font-size: 1rem;
+    }
+
+    .projectDesc{
+        font-size: 0.8rem;
+    }
+
+    .button-group{
+        flex-direction: row;
+        gap: 0.8rem;
+    }
+
+    .btn-dark,
+    .btn-blue{
+        width: 50%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,198 @@
+#contactPage{
+    width: 100%;
+    max-width: 95%;
+    margin: 3rem auto;
+    text-align: center;
+    min-height: auto;
+    height: auto;
+    padding: 2rem 0;
+    scroll-margin-top: 5rem;
+}
+
+.aboutAndContact{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    gap: 2rem;
+}
+#clients,
+#contacts{
+    flex: 1;
+    padding: 1.5rem;
+    background: white;
+    display: flex;
+    flex-direction: column;
+
+    box-shadow:
+        0 4px 10px rgba(0,0,0,0.08),
+        0 8px 25px rgba(0,0,0,0.05);
+
+    transition: all 0.3s ease;
+    border-radius: 2rem;
+}
+
+#clients:hover,
+#contacts:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 16px 35px #00abf0;
+    border: 1px solid rgba(0, 171, 240, 0.6);
+}
+
+
+/* TITLES */
+
+
+.contactPageTitle{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.clientDesc1{
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: justify;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+#text{
+    color: #00abf0;
+    font-weight: 600;
+}
+
+.contactDesc{
+    padding: 0.3rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
+/* FORM */
+
+
+.contactForm{
+    width: 100%;
+    margin-top: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+.name,
+.email,
+.msg{
+    width: 100%;
+    max-width: 100%;
+    padding: 1rem;
+
+    font-size: 1rem;
+
+    border-radius: 0.7rem;
+    background: rgb(202, 235, 249);
+
+    border: none;
+    outline: none;
+
+    resize: none;
+    box-sizing: border-box;
+}
+
+/* BUTTON */
+
+.submitbtn{
+    background: #00abf0;
+    color: white;
+
+    padding: 0.9rem 3rem;
+
+    border: none;
+    border-radius: 0.5rem;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submitbtn:hover{
+    transform: scale(1.05);
+}
+
+
+
+/* TABLET */
+
+
+@media screen and (max-width: 810px){
+
+    .aboutAndContact{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #clients,
+    #contacts{
+        width: 100%;
+    }
+
+    .contactPageTitle{
+        font-size: 2rem;
+    }
+
+    .clientDesc1{
+        font-size: 0.7rem; 
+    }
+
+    .submitbtn{
+        width: 100%;
+    }
+}
+
+
+/* MOBILE */
+
+
+@media screen and (max-width: 480px){
+
+    #contactPage{
+        max-width: 95%;
+    }
+
+    #clients,
+    #contacts{
+        border-radius: 1.2rem;
+        padding: 1rem;
+    }
+
+    .contactPageTitle{
+        font-size: 1.7rem;
+    }
+
+    .contactDesc{
+        font-size: 0.9rem;
+    }
+
+    .clientDesc1{
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+
+    .name,
+    .email,
+    .msg{
+        font-size: 0.95rem;
+        padding: 0.9rem;
+    }
+
+    .submitbtn{
+        width: 100%;
+    }
+
+
+
+    
+}
