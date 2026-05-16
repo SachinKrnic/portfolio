@@ -77,10 +77,10 @@ const Skills = ()=>{
                         </div>
 
                         <div className="button-group">
-                          <a href="https://skillswap.living/" target="_blank" rel="noreferrer" className="btn-dark">
+                          <a href="" target="_blank" rel="noreferrer" className="btn-dark">
                         GitHub
                       </a>
-                        <a href="https://skillswap.living/" target="_blank" rel="noreferrer" className="btn-blue">
+                        <a href="" target="_blank" rel="noreferrer" className="btn-blue">
                         Demo
                       </a>
                         </div>

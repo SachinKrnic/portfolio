@@ -33,7 +33,7 @@
 
 .introPara {
     font-size: medium;
-    font-weight: 300;
+    font-weight: 100;
 }
 
 .cv{
@@ -120,7 +120,8 @@
     }
 
     .introPara {
-        padding: 0 1rem;
+        padding: 1rem;
+        
     }
 
     .bg {

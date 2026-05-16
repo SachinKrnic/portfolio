@@ -36,9 +36,7 @@ const Navbar = () => {
             {/* Mobile view */}
 
 
-            <div className="mobMainNav">
             <img src={menu} alt="menu" className="mobMenu" onClick={() => setshowMenu(!showMenu)} />
-            </div>
             <div className="navMenu" style={{ display: showMenu ? 'flex' : 'none' }}>
             <Link activeClass="active" to="intro" spy={true} smooth={true} offset={-100} duration={500} className="listItem"  onClick={()=>setshowMenu(false)}>Home</Link>
             <Link activeClass="active" to="skills" spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={()=>setshowMenu(false)}>Project</Link>

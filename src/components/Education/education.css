@@ -1,5 +1,5 @@
  #education{
-  margin-top: 2rem;
+  margin-top: 4rem;
   text-align: center;
   color: rgb(77, 77, 77);
 }
@@ -104,7 +104,7 @@
 }
 
 @media screen and (max-width:480px) {
-     .eduTitle{
+    .eduTitle{
         font-size: 2.2rem;
     }
     .eduDesc{
